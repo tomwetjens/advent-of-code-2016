@@ -83,7 +83,7 @@ public class Day8 {
         }
     }
 
-    private static void rect(int[] screen, Integer cols, Integer rows) {
+    private static void rect(int[] screen, int cols, int rows) {
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
                 screen[row * COLS + col] = 1;
